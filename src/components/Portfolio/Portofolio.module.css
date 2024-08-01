@@ -1,0 +1,18 @@
+ 
+ 
+.compo{
+    transition: all 0.3s ease-in-out;
+}
+.compo:hover {
+    opacity:0.7 ;
+}
+.light{
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* display: none; */
+    z-index: 9999999999;
+}
